@@ -24,7 +24,7 @@ st.caption("ICT336 workshop. Data from Kaggle, for teaching only, not financial 
 def load_models():
     # TODO 1: load "savings_model.joblib" and "saver_model.joblib" with joblib.load
     savings = joblib.load("saving_model.joblib")
-    saver = joblib.load("saving_model.joblib")
+    saver = joblib.load("saver_model.joblib")
     return savings, saver
 
 
